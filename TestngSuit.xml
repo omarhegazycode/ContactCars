@@ -1,0 +1,14 @@
+<!-- ContactCars Test Suit runner -->
+<!--     ver          Developer                Date                  Comments-->
+<!--     1.00       Eng. Omar Hegazy	    26/11/2020          - TestSuit Created.-->
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ContactCars Project" >
+  <test name="Test">
+    <classes>
+      <class name="testcases.FirstTest"/>
+      <class name="testcases.SecondTest"/>
+      <class name="testcases.ApiTesting"/>
+    </classes>
+  </test>
+</suite>
